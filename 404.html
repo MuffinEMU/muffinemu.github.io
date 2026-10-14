@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MuffinEMU</title>
+<meta name="robots" content="noindex">
+<script>
+// /muffinemu/... and /Muffin-EMU/... (any capitalisation) go to the same page under /MuffinEMU/.
+// Anything else goes to the MuffinEMU home page.
+(function () {
+  var p = location.pathname, m = p.match(/^\/(muffin-?emu)(\/.*)?$/i);
+  var rest = m ? (m[2] || "/") : "/";
+  location.replace("https://muffinemu.github.io/MuffinEMU" + rest + location.search + location.hash);
+})();
+</script>
+</head>
+<body>
+<p>This page is on <a href="https://muffinemu.github.io/MuffinEMU/">muffinemu.github.io/MuffinEMU</a>.</p>
+</body>
+</html>
