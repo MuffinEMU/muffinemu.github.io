@@ -1,0 +1,27 @@
+# MuffinEMU
+
+> MuffinEMU (also written Muffin EMU or Muffin-EMU) is a free, open-source Wii U emulator for iPhone and iPad, based on Cemu. It has a Metal renderer by default, Vulkan through MoltenVK as an option, and uses the recompiler where iOS allows JIT. It needs iOS 15 or later. Users supply their own games and keys. Licence: MPL-2.0.
+
+The official website is https://muffinemu.github.io/MuffinEMU/ and the source code is at https://github.com/MuffinEMU/Muffin-EMU.
+
+## Install
+
+- [Installation guide](https://muffinemu.github.io/MuffinEMU/docs/installation.html): SideStore, AltStore, LiveContainer or TrollStore, JIT requirements, keys.txt, and building from source
+- [SideStore, AltStore and LiveContainer source](https://muffinemu.github.io/MuffinEMU/apps.json)
+- [TrollStore source](https://muffinemu.github.io/MuffinEMU/trollstore.json)
+- [Releases on GitHub](https://github.com/MuffinEMU/Muffin-EMU/releases)
+
+## Docs
+
+- [Features overview](https://muffinemu.github.io/MuffinEMU/docs/features.html): library and importing, on-screen play, look and feel, diagnostics
+- [Screen layout](https://muffinemu.github.io/MuffinEMU/docs/screen-layout.html)
+- [Save states](https://muffinemu.github.io/MuffinEMU/docs/save-states.html)
+- [Controls and GamePad](https://muffinemu.github.io/MuffinEMU/docs/controls.html)
+- [Themes and icons](https://muffinemu.github.io/MuffinEMU/docs/themes.html)
+- [Troubleshooting](https://muffinemu.github.io/MuffinEMU/docs/troubleshooting.html)
+- [FAQ](https://muffinemu.github.io/MuffinEMU/docs/faq.html): what it is, keys, install methods, compatibility, controllers, licensing, bug reports
+- [Licences](https://muffinemu.github.io/MuffinEMU/docs/licenses.html)
+
+## Optional
+
+- [Bug reports](https://github.com/MuffinEMU/Muffin-EMU/issues)
