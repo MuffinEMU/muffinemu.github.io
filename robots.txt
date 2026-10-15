@@ -1,3 +1,33 @@
+# MuffinEMU: search engines and AI search assistants may index this site.
+# Crawlers that collect training data for AI models may not.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
 User-agent: *
 Allow: /
 
